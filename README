@@ -1,8 +1,1 @@
-This is an alternative version of "platform/external/chromium-webview/" where
-the compiled WebView is patched for compatibility with older Broadcom GPUs.
-
-The patches can be found in the "patches" directory of this repository.
-
-The prebuilt libwebviewchromium.so included in these APKs is built from Chromium
-release tag 47.0.2526.76.
-
+This is a WebView APK from CM 12.1 (used to workaround Browser crash on GT-S7580/GT-S7582)

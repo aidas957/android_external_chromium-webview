@@ -1,4 +1,5 @@
 # Copyright (C) 2014 The Android Open Source Project
+# Copyright (C) 2016 DodoGTA GT
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -43,7 +44,6 @@
 #$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/JAVA_LIBRARIES/core_intermediates)
 #$(call add-clean-step, find $(OUT_DIR) -type f -name "IGTalkSession*" -print0 | xargs -0 rm -f)
 #$(call add-clean-step, rm -rf $(PRODUCT_OUT)/data/*)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/lib/libwebviewchromium.so)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/webview)
 
 # ******************************************************************
